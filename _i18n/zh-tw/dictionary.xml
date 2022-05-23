@@ -2787,8 +2787,6 @@
   <block id="4713082ec3f35b415638abeba331ad6c" category="list-text">若要檢視叢集中磁碟區容量與使用率的詳細資訊、請在「View（檢視）」功能表中選取「Capacity：All Volumes（容量：所有磁碟區）」檢視。</block>
   <block id="0f5ff7824e124b9145d27f63cdc1d5fd" category="list-text">若要檢視完整詳細資料、請按一下磁碟區名稱。</block>
   <block id="0ff278b9f9cf51a445b0a588d858a62a" category="list-text">*選用：*從「最小詳細資料」對話方塊中按一下「*檢視相關項目*」、即可檢視與磁碟區相關的物件。</block>
-  <block id="a68af024b1e93239842b9fe11f210fdd" category="inline-link-macro">健全狀況/磁碟區頁面</block>
-  <block id="718687c644ada88bc9596f01fa1a0c05" category="paragraph"><block ref="718687c644ada88bc9596f01fa1a0c05" category="inline-link-macro-rx"></block></block>
   <block id="d315718e318a7be7ad37473a312a1af2" category="inline-link-macro">建立報告以檢視可用的Volume容量圖表</block>
   <block id="00d7e1662e9b95a42822f0d6ac5f9d93" category="paragraph"><block ref="00d7e1662e9b95a42822f0d6ac5f9d93" category="inline-link-macro-rx"></block></block>
   <block id="5fddd99dae082074459eed58deb956df" category="summary">如果發生資料遺失或資料毀損、您可以將Unified Manager還原至先前的穩定狀態、並將資料遺失降至最低。您可以使用Unified Manager維護主控台、將Unified Manager資料庫還原至本機或遠端的Red Hat Enterprise Linux或CentOS系統。</block>
@@ -3464,10 +3462,6 @@
   <block id="d804f14fed19d038031c63aaf63b1e60" category="paragraph">此工具會顯示/support目錄的內容、您可以檢視所有現有的支援服務組合。</block>
   <block id="4ea80963e3ffca1f675de4b70c2d5529" category="list-text">選取您要複製之支援服務組合的目的地目錄。</block>
   <block id="2e5c0e84121900760b963dfd8293ed90" category="list-text">選取您要複製的支援服務組合、然後使用工具將檔案從Unified Manager伺服器複製到本機系統。</block>
-  <block id="ad33d03e901ed8ed38f8e0d4fc6c3943" category="inline-link">檔案zilla -<block ref="f27bb4f2df782f8d161ce6a58c23dfc8" category="inline-link-rx"></block></block>
-  <block id="e295733f62179fad76f68948d59ceb8e" category="paragraph"><block ref="e295733f62179fad76f68948d59ceb8e" category="inline-link-rx"></block></block>
-  <block id="60e77e93661a419436dd6e9a13601c8e" category="inline-link">Winscp -<block ref="69901d6c3168572fb93db04c8aad9aba" category="inline-link-rx"></block></block>
-  <block id="2151674523016a699197dcd7b05b8ae2" category="paragraph"><block ref="2151674523016a699197dcd7b05b8ae2" category="inline-link-rx"></block></block>
   <block id="f49cdfdbc702b165c54765bf1da49167" category="summary">群組是異質儲存物件（叢集、SVM或Volume）的動態集合。您可以在Unified Manager中建立群組、輕鬆管理一組儲存物件。群組中的成員可能會有所變更、視Unified Manager在某個時間點監控的儲存物件而定。</block>
   <block id="1da81761cbbc9d5e818a6f12e1665153" category="doc">什麼是群組</block>
   <block id="81a7f09b538b9837d99fde2a0d8d5a7a" category="list-text">每個群組都有唯一的名稱。</block>
@@ -11522,4 +11516,5 @@
   <block id="b0dea192fed54c3271d44f1043df906f" category="sidebar">關係/過去1個月的轉帳率檢視</block>
   <block id="13ea07d85e49bbdae7a2c0414691f416" category="sidebar">監控及管理儲存設備</block>
   <block id="2d00b9d7d66bb4524df569339f8a571c" category="sidebar">直接從Unified Manager修正ONTAP 或管理問題</block>
+  <block id="55d42c07c7a3bf8612627277cc3d1372" category="paragraph">關於本產品所使用之協力廠商版權與授權的資訊。</block>
 </blocks>
