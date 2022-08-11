@@ -44,6 +44,7 @@ link:reference_windows_software_and_installation_requirements.html["Windows軟�
 
 * 在升級期間、系統可能會提示您確認是否要保留先前的預設設定、以保留13個月的效能資料、或將其變更為6個月。確認後、系統會清除6個月後的歷史效能資料。
 * 在升級之前、您應該先關閉_<InstallLDIR>\JDK_和_MySQL Data目錄_中任何開啟的檔案或資料夾。
+* 如果您的Windows系統上安裝了作用中的防毒軟體、Unified Manager升級可能會失敗。升級Unified Manager之前、您應該先停用系統上的所有病毒掃描軟體。
 
 
 在升級過程中、Unified Manager無法使用。升級Unified Manager之前、您應該先完成所有執行中的作業。

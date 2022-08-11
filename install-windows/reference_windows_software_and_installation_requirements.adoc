@@ -18,7 +18,11 @@ summary: 若要在Windows上成功安裝Unified Manager、您應確保安裝Unif
 
 == 作業系統軟體
 
-您可以在下列Windows版本上安裝Unified Manager：* Microsoft Windows Server 2016 Standard與Datacenter Edition * Microsoft Windows Server 2019 Standard與Datacenter Edition
+您可以在下列Windows版本上安裝Unified Manager：
+
+* Microsoft Windows Server 2016標準版與資料中心版
+* Microsoft Windows Server 2019標準版與資料中心版
+
 
 下列語言的64位元Windows作業系統支援Unified Manager：
 
@@ -77,17 +81,11 @@ Unified Manager部署在Wildfly Web伺服器上。Wildfly 19.0與Unified Manager
 * 您應該停用Microsoft IIS全球網路發佈服務、並確保連接埠80和443是免費的。
 * 您應該確定在安裝期間停用「Windows Installer RDS相容性」的遠端桌面工作階段主機設定。
 * udp連接埠514應該是免費的、不應由任何其他服務使用。
+* 如果您的Windows系統上安裝了作用中的防毒軟體、Unified Manager安裝可能會失敗。在安裝Unified Manager之前、您應該先停用系統上的所有病毒掃描軟體。安裝完成後、請務必手動將下列路徑排除在防毒掃描之外：
++
+** Unified Manager資料目錄、例如：「C：\ProgramData\NetApp\OnCommandAppData\」
+** Unified Manager安裝目錄、例如：「C:\Program Files\NetApp\」
+** MySQL資料目錄、例如「C：\ProgramData\MySQLServerData」
 
 
-[NOTE]
-====
-Unified Manager安裝程式會在Windows Defender中設定下列排除項目：
 
-* Unified Manager資料目錄
-* Unified Manager安裝目錄
-* MySQL資料目錄
-
-
-如果您的伺服器安裝了不同的防毒掃描程式、您應該手動設定這些排除項目。
-
-====
