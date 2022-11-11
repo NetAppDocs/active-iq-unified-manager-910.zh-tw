@@ -9811,7 +9811,6 @@
   <block id="ae48afa96207ddbaa3cc0fd8af90a98e" category="list-text">選取您要還原的叢集、SVM和Volume。</block>
   <block id="bc621350fbc23e6ec1741153ed6e331f" category="list-text">在「名稱」表格中、選取目錄名稱。</block>
   <block id="2d0fcfb8d7bf7c097d1eab05f1ec38bf" category="list-text">單擊*選擇目錄*。</block>
-  <block id="ef2e98478d29a26f02db2c56ea13bc57" category="paragraph">如果Cloud Volumes ONTAP 在發生NDMP錯誤的情況下、還原作業在還原HA叢集之間失敗、您可能需要在目的地叢集中新增明確的AWS路由、以便目的地能夠與來源系統的叢集管理LIF通訊。您可以使用OnCommand NetApp Cloud Manager執行此組態步驟。</block>
   <block id="7331ad8836c59b4b432445f8fc5c99e4" category="summary">您可以利用版本彈性的複寫與備份選項功能來建立SnapMirror關係。備份選項功能可讓您實作SnapMirror保護、並在目的地位置保留多個版本的備份複本。</block>
   <block id="e36facec58d4fd1ab5145c36e21c2862" category="doc">使用具有備份選項的版本彈性複寫來建立SnapMirror關係</block>
   <block id="3548e0e1f21a7e1571e5fe3cbe618416" category="list-text">來源和目的地的SVM都必須SnapVault 啟用不含功能的授權。</block>
@@ -11438,8 +11437,6 @@
   <block id="e06e49da3fb49fecd85244c11ba7754d" category="list-text">您只能在Active IQ Unified Manager 相同版本的Sof the S還原Snapshot複本。</block>
   <block id="839fa2b63b981f33da59323dbb6922ca" category="doc">指定Windows上Snapshot複本的目的地位置</block>
   <block id="895ab5c620e863020033929131d3f188" category="list-text">結束維護主控台並啟動Active IQ Unified Manager 支援程序介面、以建立Snapshot複本的排程。</block>
-  <block id="1024da4d1e601efc60b6d334667fb372" category="inline-link-macro">如何在AIQUM中手動更新AIQCASecure規則</block>
-  <block id="ab8d738b545ae820bcf3e08c1381f9d5" category="paragraph">如需詳細資訊、請參閱以下知識庫（KB）文章： <block ref="2880d9e8074f03320d24915675f84536" category="inline-link-macro-rx"></block></block>
   <block id="97bbb871095678061fcc80b68b1e751b" category="paragraph">它會比較叢集中所有節點的效能使用容量值、以查看是否有任何節點超過30%臨界值達24小時以上。這是一項警告事件。</block>
   <block id="4b182fd97f4652b30a2fb7e34f4c9bf6" category="paragraph">提供Active IQ Unified Manager 有關更新功能、限制和已知問題的摘要、以供參閱。</block>
   <block id="e3474a37b8b8000684dda99833abd480" category="sidebar">零件9.10文件Active IQ Unified Manager</block>
@@ -11522,4 +11519,7 @@
   <block id="098f9c8760d143ea65998c16b9355dc8" category="list-text">將下載的套件複製到安裝系統上解壓縮Unified Manager套件的目錄。</block>
   <block id="eb48c0935181b533718e0dc01d2336f0" category="list-text">將目錄變更至該目錄、然後執行下列命令來安裝遺失的套件及其相依性。</block>
   <block id="ccb2222b0ddd075041c68e90def28092" category="paragraph">此程序可完成Unified Manager升級程序。在支援的網頁瀏覽器的新視窗中輸入指定的IP位址或URL、以啟動Unified Manager網路UI、然後使用您先前設定的相同維護使用者名稱（umadmin）和密碼登入。</block>
+  <block id="f76a02997799aac32e213591073ce977" category="inline-link-macro">如何手動更新AIQCASecure規則Active IQ Unified Manager 、請至英文版</block>
+  <block id="430faf3dc4359c7567b9aa2464e05a7b" category="paragraph">如需詳細資訊、請參閱以下知識庫（KB）文章：<block ref="5bddd87587ead14d65a9ed529343bb03" category="inline-link-macro-rx"></block>。</block>
+  <block id="747c77249313eab0521246ecfbad977b" category="paragraph">如果Cloud Volumes ONTAP 在發生NDMP錯誤的情況下、還原作業在還原HA叢集之間失敗、您可能需要在目的地叢集中新增明確的AWS路由、以便目的地能夠與來源系統的叢集管理LIF通訊。您可以使用BlueXP執行此組態步驟。</block>
 </blocks>
